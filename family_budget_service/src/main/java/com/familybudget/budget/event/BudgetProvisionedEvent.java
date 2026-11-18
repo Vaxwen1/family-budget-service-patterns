@@ -1,6 +1,5 @@
-package com.familybudget.budget.event.impl;
+package com.familybudget.budget.event;
 
-import com.familybudget.budget.event.DomainEvent;
 import com.familybudget.budget.messaging.dto.BudgetCreatedEvent;
 
 import java.math.BigDecimal;
@@ -11,7 +10,7 @@ public record BudgetProvisionedEvent(Long familyId, Long budgetId, String name,
 
     @Override
     public String routingKey() {
-        return "budget.create";
+        return "budget.created";
     }
 
     @Override

@@ -1,7 +1,6 @@
 package com.familybudget.budget.event.enums;
 
-public enum ChageType {
+public enum ChangeType {
         CREATED,
-        UPDATED,
-        DELETED
+        UPDATED
 }

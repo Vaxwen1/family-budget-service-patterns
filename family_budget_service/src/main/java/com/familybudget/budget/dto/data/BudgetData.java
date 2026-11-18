@@ -1,6 +1,6 @@
 package com.familybudget.budget.dto.data;
 
-import com.familybudget.budget.event.enums.ChageType;
+import com.familybudget.budget.event.enums.ChangeType;
 
 import java.math.BigDecimal;
 import java.time.Instant;

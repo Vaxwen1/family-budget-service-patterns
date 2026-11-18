@@ -22,14 +22,8 @@ public class Budget {
     @Column(name = "name", nullable = false)
     private String name;
 
-    /**
-     * The limit/allowed amount for this budget
-     */
     private BigDecimal limitAmount = BigDecimal.ZERO;
 
-    /**
-     * How much is spent inside all categories
-     */
     private BigDecimal spent = BigDecimal.ZERO;
 
     @ManyToOne

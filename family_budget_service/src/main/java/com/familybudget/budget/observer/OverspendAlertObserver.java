@@ -1,6 +1,6 @@
 package com.familybudget.budget.observer;
 
-import com.familybudget.budget.event.impl.TransactionChangedEvent;
+import com.familybudget.budget.event.TransactionChangedEvent;
 import com.familybudget.budget.messaging.dto.BudgetOverspentEvent;
 import com.familybudget.budget.messaging.publisher.DomainEventPublisher;
 import lombok.RequiredArgsConstructor;
@@ -19,13 +19,13 @@ public class OverspendAlertObserver {
 
     @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT, fallbackExecution = true)
     public void onTransactionChanged(TransactionChangedEvent event) {
-        if(!event.isOverBudget())
+        if (!event.isOverBudget())
             return;
 
         log.warn("Budget {} of family {} is overspent: {} spent of {} allowed",
-                event.getBudgetId(), event.getFamilyId(), event.getBudgetSpent(), event.getBudgetLimit() );
+                event.budgetId(), event.familyId(), event.budgetSpent(), event.budgetLimit());
 
         publisher.publish("budget.overspent",
-                new BudgetOverspentEvent(event.getBudgetId(), event.getFamilyId(), event.getBudgetSpent(), event.getBudgetLimit(), Instant.now()));
+                new BudgetOverspentEvent(event.budgetId(), event.familyId(), event.budgetSpent(), event.budgetLimit(), Instant.now()));
     }
 }

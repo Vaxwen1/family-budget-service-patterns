@@ -13,7 +13,6 @@ com\familybudget\budget\dto\data\BudgetData.class
 com\familybudget\budget\dto\response\FamilyResponse.class
 com\familybudget\budget\services\TransactionService.class
 com\familybudget\budget\messaging\dto\TransactionUpdatedEvent.class
-com\familybudget\budget\event\impl\TransactionChangedEvent$1.class
 com\familybudget\budget\messaging\dto\BudgetCreatedEvent.class
 com\familybudget\budget\repository\BudgetRepository.class
 com\familybudget\budget\services\impl\FamilyMemberServiceImpl.class
@@ -30,10 +29,10 @@ com\familybudget\budget\dto\request\FamilyRequest.class
 com\familybudget\budget\messaging\publisher\DomainEventPublisher.class
 com\familybudget\budget\dto\response\FamilyMemberResponse.class
 com\familybudget\budget\exception\SalaryNotFoundException.class
+com\familybudget\budget\event\BudgetProvisionedEvent.class
 com\familybudget\budget\controller\FamilyMemberController.class
 com\familybudget\budget\dto\response\SalaryResponse.class
 com\familybudget\budget\exception\CategoryNotFoundException.class
-com\familybudget\budget\event\enums\ChageType.class
 com\familybudget\budget\exception\TransactionNotFoundException.class
 com\familybudget\budget\messaging\listener\DomainEventsDebugListener.class
 com\familybudget\budget\entity\Transaction.class
@@ -50,11 +49,10 @@ com\familybudget\budget\entity\Budget$BudgetBuilder.class
 com\familybudget\budget\messaging\dto\CategoryCreatedEvent.class
 com\familybudget\budget\dto\response\TransactionResponse.class
 com\familybudget\budget\entity\Salary$SalaryBuilder.class
-com\familybudget\budget\event\impl\BudgetProvisionedEvent.class
 com\familybudget\budget\exception\FamilyNotFoundException.class
 com\familybudget\budget\services\SalaryService.class
-com\familybudget\budget\event\impl\TransactionChangedEvent.class
 com\familybudget\budget\messaging\dto\BudgetOverspentEvent.class
+com\familybudget\budget\event\TransactionChangedEvent.class
 com\familybudget\budget\controller\BudgetController.class
 com\familybudget\budget\dto\request\SalaryRequest.class
 com\familybudget\budget\entity\FamilyMember$FamilyMemberBuilder.class
@@ -63,6 +61,7 @@ com\familybudget\budget\messaging\config\DomainEventsRabbitConfig.class
 com\familybudget\budget\services\impl\BudgetServiceImpl.class
 com\familybudget\budget\repository\SalaryRepository.class
 com\familybudget\budget\repository\FamilyMemberRepository.class
+com\familybudget\budget\event\enums\ChangeType.class
 com\familybudget\budget\entity\Category$CategoryBuilder.class
 com\familybudget\budget\messaging\dto\TransactionCreatedEvent.class
 com\familybudget\budget\controller\CategoryController.class
@@ -76,6 +75,7 @@ com\familybudget\budget\services\impl\TransactionServiceImpl.class
 com\familybudget\budget\exception\BudgetNotFoundException.class
 com\familybudget\budget\messaging\dto\FamilyMemberUpdatedEvent.class
 com\familybudget\budget\dto\request\CategoryRequest.class
+com\familybudget\budget\event\TransactionChangedEvent$1.class
 com\familybudget\budget\messaging\dto\CategoryUpdatedEvent.class
 com\familybudget\budget\entity\Salary.class
 com\familybudget\budget\observer\AuditLogObserver.class
