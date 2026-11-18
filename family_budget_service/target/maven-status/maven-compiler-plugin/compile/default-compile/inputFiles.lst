@@ -7,6 +7,7 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\config\DomainEventsRabbitConfig.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\CategoryController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\request\FamilyMemberRequest.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\GlobalExceptionHandler.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\BudgetCreatedEvent.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\entity\Salary.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\entity\Transaction.java

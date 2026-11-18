@@ -36,6 +36,7 @@ com\familybudget\budget\exception\CategoryNotFoundException.class
 com\familybudget\budget\exception\TransactionNotFoundException.class
 com\familybudget\budget\messaging\listener\DomainEventsDebugListener.class
 com\familybudget\budget\entity\Transaction.class
+com\familybudget\budget\controller\GlobalExceptionHandler.class
 com\familybudget\budget\messaging\dto\FamilyCreatedEvent.class
 com\familybudget\budget\dto\request\BudgetRequest.class
 com\familybudget\budget\entity\Family.class
