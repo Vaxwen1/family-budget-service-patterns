@@ -1,6 +1,11 @@
-package com.familybudget.budget.factory;
+package com.familybudget.budget.factory.creators;
 
 import org.springframework.stereotype.Component;
+
+import com.familybudget.budget.factory.BudgetFactory;
+import com.familybudget.budget.factory.BudgetTemplate;
+import com.familybudget.budget.factory.CategoryTemplate;
+import com.familybudget.budget.factory.StaticBudgetTemplate;
 
 import java.util.List;
 

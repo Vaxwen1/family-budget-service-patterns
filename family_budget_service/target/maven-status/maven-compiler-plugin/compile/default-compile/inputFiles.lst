@@ -20,14 +20,17 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\SalaryService.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\BudgetServiceApplication.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\SalaryUpdatedEvent.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\form\BudgetForm.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\entity\Category.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\TransactionCreatedEvent.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\impl\CategoryServiceImpl.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\impl\SalaryServiceImpl.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\form\FamilyForm.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\creators\CoupleBudgetFactory.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\config\RabbitMessageConfig.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\FamilyMemberCreatedEvent.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\FamilyMemberUpdatedEvent.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\view\DashboardView.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\TransactionUpdatedEvent.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\dto\CategoryUpdatedEvent.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\listener\DomainEventsDebugListener.java
@@ -53,7 +56,9 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\creators\SingleBudgetFactory.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\messaging\BudgetRabbitSender.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\impl\FamilyMemberServiceImpl.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\facade\BudgetDashboardFacade.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\creators\FamilyWithChildrenBudgetFactory.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\view\FamilySummary.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\FamilyController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\event\BudgetProvisionedEvent.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\observer\OverspendAlertObserver.java
@@ -67,6 +72,7 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\impl\BudgetServiceImpl.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\TransactionService.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\BudgetFactoryRegistry.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\view\CategorySummary.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\impl\BudgetProvisionServiceImpl.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\request\TransactionRequest.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\response\TransactionResponse.java
@@ -75,6 +81,7 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\repository\FamilyRepository.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\BudgetFactory.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\exception\CategoryNotFoundException.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\view\BudgetSummary.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\CategoryTemplate.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\observer\RabbitEventForwarder.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\SalaryController.java
@@ -82,6 +89,8 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\FamilyMemberController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\event\enums\ChangeType.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\data\BudgetData.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\DashboardApiController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\response\SalaryResponse.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\form\TransactionForm.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\StaticBudgetTemplate.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\entity\FamilyMember.java

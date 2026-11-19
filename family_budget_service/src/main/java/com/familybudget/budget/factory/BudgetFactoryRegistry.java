@@ -32,4 +32,8 @@ public class BudgetFactoryRegistry {
         }
         return type.trim().toUpperCase(Locale.ROOT).replace(' ', '_').replace('-', '_');
     }
+
+    public List<String> getSupportedFamilyTypes() {
+        return budgetFactories.keySet().stream().sorted().toList();
+    }
 }
