@@ -35,7 +35,6 @@ com\familybudget\budget\services\SalaryService.class
 com\familybudget\budget\messaging\dto\BudgetOverspentEvent.class
 com\familybudget\budget\controller\BudgetController.class
 com\familybudget\budget\entity\FamilyMember$FamilyMemberBuilder.class
-com\familybudget\budget\controller\DashboardApiController.class
 com\familybudget\budget\messaging\config\DomainEventsRabbitConfig.class
 com\familybudget\budget\services\impl\BudgetServiceImpl.class
 com\familybudget\budget\controller\CategoryController.class
@@ -53,7 +52,6 @@ com\familybudget\budget\services\BudgetService.class
 com\familybudget\budget\event\DomainEvent.class
 com\familybudget\budget\services\FamilyMemberService.class
 com\familybudget\budget\factory\StaticBudgetTemplate.class
-com\familybudget\budget\dto\data\BudgetData.class
 com\familybudget\budget\messaging\dto\BudgetCreatedEvent.class
 com\familybudget\budget\repository\BudgetRepository.class
 com\familybudget\budget\messaging\dto\SalaryUpdatedEvent.class
@@ -64,6 +62,7 @@ com\familybudget\budget\entity\Budget.class
 com\familybudget\budget\observer\RabbitEventForwarder.class
 com\familybudget\budget\factory\BudgetTemplate.class
 com\familybudget\budget\messaging\publisher\DomainEventPublisher.class
+com\familybudget\budget\controller\DashboardController.class
 com\familybudget\budget\dto\response\FamilyMemberResponse.class
 com\familybudget\budget\exception\SalaryNotFoundException.class
 com\familybudget\budget\event\BudgetProvisionedEvent.class

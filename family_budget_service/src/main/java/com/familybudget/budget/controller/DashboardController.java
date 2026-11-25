@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v2")
 @RequiredArgsConstructor
-public class DashboardApiController {
+public class DashboardController {
 
     private final BudgetDashboardFacade facade;
 

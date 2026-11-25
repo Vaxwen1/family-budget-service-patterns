@@ -50,6 +50,7 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\services\FamilyMemberService.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\repository\BudgetRepository.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\response\FamilyMemberResponse.java
+C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\DashboardController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\response\BudgetResponse.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\exception\FamilyMemberNotFoundException.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\repository\FamilyMemberRepository.java
@@ -88,8 +89,6 @@ C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\request\FamilyRequest.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\FamilyMemberController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\event\enums\ChangeType.java
-C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\data\BudgetData.java
-C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\controller\DashboardApiController.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\response\SalaryResponse.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\dto\form\TransactionForm.java
 C:\Projects\MS_project\family-budget-service\family_budget_service\src\main\java\com\familybudget\budget\factory\StaticBudgetTemplate.java

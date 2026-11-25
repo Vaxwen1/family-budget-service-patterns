@@ -26,6 +26,6 @@ public class OverspendAlertObserver {
                 event.budgetId(), event.familyId(), event.budgetSpent(), event.budgetLimit());
 
         publisher.publish("budget.overspent",
-                new BudgetOverspentEvent(event.budgetId(), event.familyId(), event.budgetSpent(), event.budgetLimit(), Instant.now()));
+                new BudgetOverspentEvent(event.familyId(), event.budgetId(), event.budgetSpent(), event.budgetLimit(), Instant.now()));
     }
 }
